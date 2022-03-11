@@ -1,4 +1,4 @@
-**Caveau** is the Open Source API for Privacy. 
+**Caveau** is the Open Source API for Privacy.
 
 With **Caveau** you can:
 * Greatly reduce the risk of data breaches
@@ -6,6 +6,6 @@ With **Caveau** you can:
 * Govern who has access to the data in your organization
 
 ### Philosophy
-* **Everyone** should be able to secure his data
-* **Security** should be **Open Source**: reviewed by the community
-* **Customizable** for different needs
+* **Everyone** should be able to **secure** their data 🔒
+* **Security** should be **Open Source**: reviewed by the community ️️❤️
+* **Customizable** for different needs 🔧
