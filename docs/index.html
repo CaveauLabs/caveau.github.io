@@ -36,25 +36,6 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:image" content="https://caveau.dev/images/preview.jpg" />
     <meta property="twitter:title" content="Caveau" />
-
-    <script type="text/javascript">
-
-    function init() {
-        var player = window.videojs('my-player', {
-            autoplay: true,
-            controls: true,
-            muted: true
-        });
-        /*
-        var player2 = window.videojs('myVideo', {
-            autoplay: true,
-            loop: true,
-            controls: false,
-            muted: true
-        });*/
-    }
-    </script>
-
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="90" onload="init()">
 
@@ -85,8 +66,6 @@
 
 <!-- header-->
 <header>
-
-
 <section id="home">
 	<nav class="navbar navbar-expand-lg static-nav">
       <div class="container">
@@ -97,7 +76,7 @@
          <div class="collapse navbar-collapse" id="xenav">
             <ul class="navbar-nav">
                <li class="nav-item active">
-                  <a class="nav-link" href="index.html#introduction">Introduction</a>
+                  <a class="nav-link" href="index.html#home">Features</a>
                </li>
 				<li class="nav-item">
                   <a class="nav-link" href="index.html#our-company">Why Caveau?</a>
@@ -138,7 +117,7 @@
          <nav class="side-nav">
             <ul class="navbar-nav w-100">
                <li class="nav-item active">
-                  <a class="nav-link" href="index.html#introduction">Introduction</a>
+                  <a class="nav-link" href="index.html#home">Features</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="index.html#our-company">Why Caveau?</a>
@@ -163,33 +142,10 @@
 <!-- header -->
 </header>
 
-<section id="introduction">
-    <div class="studio-ver center-block" style="width: 100% !important; height: auto;">
-        <video
-                id="my-player"
-                class="video-js"
-                autoplay
-                controls
-                preload="auto"
-                poster="video/thumb.png">
-            <source src="video/intro-video.mp4" type="video/mp4"></source>
-            <track kind="captions" src="video/intro-video.vtt" srclang="en" label="English" default></track>
-            <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a
-                web browser that
-                <a href="http://videojs.com/html5-video-support/" target="_blank">
-                    supports HTML5 video
-                </a>
-            </p>
-        </video>
-    </div>
-</section>
-
 <!--Main Slider-->
-<!--
 <section id="features">
-	<video autoplay loop controls muted id="myVideo">
-  	<source src="video/intro-video.mp4" type="video/mp4">
+	<video autoplay loop playsinline muted id="myVideo">
+  	<source src="video/video-new.mp4" type="video/mp4">
   	Your browser does not support HTML5 video.
 	</video>
 	<div class="studio-ver padding_top full-screen center-block" id="home-carousel">
@@ -229,9 +185,29 @@
 	   </div>
 	</div>
 </section>
--->
 <!--Main Slider ends -->
 
+<section id="introduction" class="padding_top bgwhite">
+    <div class="studio-ver center-block" style="width: 100% !important; height: auto;">
+        <video
+                id="my-player"
+                class="video-js"
+                autoplay
+                controls
+                preload="auto"
+                poster="video/thumb.png">
+            <source src="video/intro-video.mp4" type="video/mp4"></source>
+            <track kind="captions" src="video/intro-video.vtt" srclang="en" label="English" default></track>
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="http://videojs.com/html5-video-support/" target="_blank">
+                    supports HTML5 video
+                </a>
+            </p>
+        </video>
+    </div>
+</section>
 
 <!-- About Begins -->
 <section id="our-company" class="padding_top bgwhite">
@@ -240,7 +216,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="message-box">
                       <h2 class="text-capitalize font-xlight">
-						  <span class="d-block darkcolor">Why</span>
+						  <span class="d-block darkcolor">Why Using</span>
 						  <span class="d-block darkcolor fontbold">Caveau?</span></h2>
 
                     </div>
@@ -515,9 +491,7 @@
 <script src="js/jquery.fancybox.min.js"></script>
 
 <!-- Video Background-->
-<!--
 <script src="js/jquery.background-video.js"></script>
--->
 
 <!--TypeWriter-->
 <!--
@@ -544,6 +518,17 @@
 <script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
 <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+<script type="text/javascript">
+
+    function init() {
+        var player = window.videojs('my-player', {
+            autoplay: true,
+            controls: true,
+            muted: true
+        });
+    }
+</script>
 
 <!--Google Map API-->
 
