@@ -192,7 +192,6 @@
         <video
                 id="my-player"
                 class="video-js"
-                autoplay
                 controls
                 preload="auto"
                 poster="video/thumb.png">
@@ -520,18 +519,20 @@
 <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
 
 <script type="text/javascript">
-
-    function init() {
-        var player = window.videojs('my-player', {
-            autoplay: true,
-            controls: true,
-            muted: true
-        });
-    }
+        window.videojs('my-player', {controls: true});
 </script>
+
+<style type="text/css">
+.vjs-paused .vjs-big-play-button
+{
+    display: none;
+}
+</style>
+
 
 <!--Google Map API-->
 
 <script src="js/functions.js"></script>
+
 </body>
 </html>
