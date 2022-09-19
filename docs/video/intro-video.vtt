@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.920 --> 00:00:09.760
+We all get those emails, but we shouldn't have to.&nbsp;
+Our data should be handled the same way we store&nbsp;&nbsp;
+
+00:00:09.760 --> 00:00:15.760
+our most valuable assets: in a security box,&nbsp;
+with a unique key within the vault of a bank,&nbsp;&nbsp;
+
+00:00:15.760 --> 00:00:21.840
+where access to each box is vetted by a security&nbsp;
+guard who identifies who you are and records every&nbsp;&nbsp;
+
+00:00:21.840 --> 00:00:28.640
+access in a journal. Well those are the same core&nbsp;
+principles of a zero trust data vault and Caveau&nbsp;&nbsp;
+
+00:00:28.640 --> 00:00:33.840
+is a new open source project that will raise the&nbsp;
+bar for online security practices when handling&nbsp;&nbsp;
+
+00:00:33.840 --> 00:00:41.280
+sensitive data. Caveau uses a deductive AI to&nbsp;
+scan both APIs and databases to identify sensitive&nbsp;&nbsp;
+
+00:00:41.280 --> 00:00:47.840
+information and segregate it into the Zero&nbsp;
+Trust Vault. Data access is validated by our AI&nbsp;&nbsp;
+
+00:00:47.840 --> 00:00:53.600
+and anomalies are traced to eliminate accidental&nbsp;
+or willful exposure, while also permanently&nbsp;&nbsp;
+
+00:00:53.600 --> 00:00:58.720
+shielding the data from its initial collection&nbsp;
+through transit and storage. Caveau makes it&nbsp;&nbsp;
+
+00:00:58.720 --> 00:01:05.040
+easy to comply with a long list of regulations&nbsp;
+like GDPR, once implemented the continuous audit&nbsp;&nbsp;
+
+00:01:05.040 --> 00:01:10.560
+functionality provides consumers and regulatory&nbsp;
+bodies with real-time proof that the data remains&nbsp;&nbsp;
+
+00:01:10.560 --> 00:01:16.800
+secure. Caveau is offered via commercial cloud&nbsp;
+services and is portable for on-premises solutions&nbsp;&nbsp;
+
+00:01:16.800 --> 00:01:22.240
+like a government national cloud, including a&nbsp;
+direct offering via the Open Source tier through&nbsp;&nbsp;
+
+00:01:22.240 --> 00:01:27.840
+basic to enterprise class. You can specify your&nbsp;
+own encryption keys or algorithms to comply with&nbsp;&nbsp;
+
+00:01:27.840 --> 00:01:36.480
+industry standards or beyond into post-quantum&nbsp;
+cryptography. Get in touch with us now!
+
