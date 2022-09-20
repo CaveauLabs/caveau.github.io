@@ -5,7 +5,6 @@ jQuery(window).on("load", function () {
 
 });
 
-
 jQuery(function ($) {
    "use strict";
    var $window = $(window);
@@ -13,6 +12,16 @@ jQuery(function ($) {
    var $root = $("html, body");
    var $this = $(this);
 
+
+   $(window).on("scroll", function () {
+      var video = document.querySelector('#caveau-video');
+      var position = video.getBoundingClientRect();
+
+      // checking for partial visibility
+      if(position.top < window.innerHeight / 3) {
+         video.play();
+      }
+   });
 
    //Contact Us
 $("#submit_btn").click(function() {
